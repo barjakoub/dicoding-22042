@@ -1,0 +1,7 @@
+runtime: nodejs16
+env_variables:
+  GOOGLE_CLOUD_PROJECT: stellar-chemist-402612
+  GCLOUD_STORAGE_BUCKET: stellar-chemist-402612.appspot.com
+handlers:
+  - url: /image
+  - static_dir: images
